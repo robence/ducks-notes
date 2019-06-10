@@ -1,6 +1,5 @@
 // create-react-app
 body {
-  font-size: 62.5%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -26,4 +25,12 @@ ol {
 *,
 div * {
   box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.App {
+  height: 100vh;
 }
