@@ -1,0 +1,30 @@
+.card-container {
+  display: flex;
+  padding: 2rem;
+}
+
+.card {
+  box-shadow: 1px 1px 3px black;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  min-width: 100px;
+  min-height: 150px;
+
+  margin: 2rem;
+  text-decoration: underline;
+
+  & > p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  &:hover {
+    background-color: darken(white, 10%);
+
+    & > p {
+      opacity: 0.5;
+    }
+  }
+}
